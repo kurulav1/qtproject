@@ -3,17 +3,22 @@ compiler_path = unknown-compiler
 processor_path = unknown-processor
 build_path  = unknown-build
 
-PLATFORM_WIN {
-    platform_path = windows
+
+
+PLATFORM_OSX {
+platform_path = osx
+}
+
+COMPILER_CLANG
+{
+compiler_path = clang
 }
 
 COMPILER_GCC{
 compiler_path = gcc
 }
 
-COMPILER_MSVC2017{
-compiler_path = msvc2017
-}
+
 
 
 PROCESSOR_x64 {

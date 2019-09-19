@@ -4,7 +4,7 @@ SUBDIRS += \
     cm-lib \
     cm-ui
 
-message(C:\Users\vaino\Documents\cm: $${PWD})
+message(/Users/vainokurula/cm/qtproject: $${PWD})
 
 
 

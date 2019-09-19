@@ -1,18 +1,20 @@
-win32 {
-    CONFIG += PLATFORM_WIN
-    message(PLATFORM_WIN)
-    win32-g++ {
-        CONFIG += COMPILER_GCC
-        message(COMPILER_GCC)
-        }
 
-    win32-msvc2017 {
-        CONFIG += COMPILER_MSVC2017
-        message(COMPILER_MSVC2017)
-        win32-msvc2017:QMAKE_TARGET.arch = x86_64
-     }
+
+macx {
+CONFIG += PLATFORM_OSX
+message(PLATFORM_OSX)
+macx-clang {
+CONFIG += COMPILER_CLANG
+message(COMPILER_CLANG)
+QMAKE_TARGET.arch = x86_64
 }
 
+macx-clang-32 {
+CONFIG += COMPILER_CLANG
+message(COMPILER_CLANG)
+QMAKE_TARGET.arch = x86
+}
+}
 
 
 

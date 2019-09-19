@@ -30,7 +30,7 @@ HEADERS += source/cm-lib_global.h \
     source/framework/command.h \
     source/models/client.h
 
-message(C:\Users\vaino\Documents\cm\cm-lib: $${PWD})
+message(/Users/vainokurula/cm/qtproject: $${PWD})
 
 
 DESTDIR = $$PWD/../binaries/$$DESTINATION_PATH
